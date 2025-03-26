@@ -23,6 +23,7 @@ Ensure your Termux has the necessary dependencies:
 pkg update && pkg upgrade -y
 pkg install python -y
 pip install requests bs4
+termux-setup-storage
 ```
 
 ### 2️⃣ Clone or Download the Script
@@ -30,6 +31,7 @@ pip install requests bs4
 Clone the repository:
 
 ```sh
+pkg install git
 git clone https://github.com/ak-alien/netflix.git
 cd netflix
 ```
